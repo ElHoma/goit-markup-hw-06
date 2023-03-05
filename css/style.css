@@ -650,6 +650,8 @@ a.current::after {
   cursor: pointer;
 }
 
+.modal-close:hover,
+.modal-close:focus,
 .modal-close:active {
   background-color: #404bbf;
   fill: var(--clr-white);
