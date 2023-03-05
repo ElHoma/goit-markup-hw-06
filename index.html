@@ -413,6 +413,18 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-container">
+          <h3 class="subscribe-title">Subscribe</h3>
+          <form class="subscribe">
+            <input type="email" placeholder="E-mail" class="subscribe-form" />
+            <button type="submit" class="subscribe-btn">
+              Subscribe
+              <svg class="subscribe-svg" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -425,6 +437,57 @@
             ></use>
           </svg>
         </button>
+
+        <div class="modal-info">
+          <h3 class="modal-title">
+            Leave your contacts and we will call you back
+          </h3>
+          <form name="contact-form">
+            <div class="form-item">
+              <label class="form-label" for="form-name">Name</label>
+              <input type="text" id="form-name" />
+              <svg class="form-svg">
+                <use href="./images/symbol-defs.svg#icon-name"></use>
+              </svg>
+            </div>
+
+            <div class="form-item">
+              <label class="form-label" for="form-tel">Phone</label>
+              <input type="tel" id="form-tel" />
+              <svg class="form-svg">
+                <use href="./images/symbol-defs.svg#icon-phone"></use>
+              </svg>
+            </div>
+
+            <div class="form-item">
+              <label class="form-label" for="form-email">Email</label>
+              <input type="email" id="form-email" />
+              <svg class="form-svg">
+                <use href="./images/symbol-defs.svg#icon-email"></use>
+              </svg>
+            </div>
+
+            <div class="form-item form-text">
+              <label class="form-label" for="form-comments">Comment</label>
+              <textarea placeholder="Text input" id="form-comments"></textarea>
+            </div>
+
+            <div class="checkbox-container">
+              <label class="check-info">
+                <input class="checkbox" type="checkbox" />
+                <svg class="check-svg" width="16" height="16">
+                  <use href="./images/symbol-defs.svg#icon-check-mark"></use>
+                </svg>
+
+                I accept the terms and conditions of the
+                <a href="" class="check-link"> Privacy Policy</a>
+              </label>
+            </div>
+            <div class="form-btn">
+              <button type="submit" class="submit-btn">Send</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
 
