@@ -716,6 +716,7 @@ textarea:focus {
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
+  cursor: pointer;
 }
 
 .form-item input {
@@ -771,6 +772,7 @@ textarea::placeholder {
   border: 1.25px solid #2e2f42;
   border-radius: 2px;
   fill: transparent;
+  cursor: pointer;
 }
 
 .checkbox:checked + .check-svg {
@@ -786,6 +788,7 @@ textarea::placeholder {
   line-height: 14px;
   letter-spacing: 0.04em;
   color: #757575;
+  cursor: pointer;
 }
 
 .check-link {
